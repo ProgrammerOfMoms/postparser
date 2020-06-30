@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     "rest_framework",
     "corsheaders",
+
     "poster",
     "user",
 ]
@@ -135,6 +136,7 @@ CORS_ORIGIN_WHITELIST = (
     'http://localhost:3000',
     'http://127.0.0.1:8000',
     'http://127.0.0.1:3000',
+    'http://localhost:8000'
 )
 
 CORS_ALLOW_CREDENTIALS = True
@@ -183,6 +185,12 @@ LOGIN_REDIRECT_URL = 'home'
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+REACT_APP_DIR = os.path.join(BASE_DIR, 'post_parser_react') 
+
+STATICFILES_DIRS = [
+    os.path.join(REACT_APP_DIR, 'build', 'static'),
+]
 
 
 #VK API
