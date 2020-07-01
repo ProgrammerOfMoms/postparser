@@ -1,0 +1,23 @@
+.container{
+    width: 100vw;
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.msg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.span{
+    color: #1A3463;
+    font-size: 50px;
+}
+.span2{
+    color: #61A0D6;
+    font-size: 25px;
+}
