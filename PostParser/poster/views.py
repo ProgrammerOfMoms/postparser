@@ -37,6 +37,7 @@ class PostList(APIView):
         start_time = request.GET.get("start_time", None)
         end_time = request.GET.get("end_time", None)
         extended = request.GET.get("extended", 0)
+
         # if start_time != None:
         #     start_time = datetime.strptime(start_time, "%d.%m.%Y")
         # if end_time != None:
@@ -44,6 +45,9 @@ class PostList(APIView):
         # if start_time < end_time:
             # return Response(data={"status": "date_error", "desc": "s_time<e_time"}, status=status.HTTP_400_BAD_REQUEST)
         try:
+            user = request.user
+            if not user.is_active:
+                return Response(data={"status": "vk_error", "desc": str(e)}, status=status.HTTP_401_UNAUTHORIZED)
             posts = bot.get_posts(q, start_time, end_time, count, extended)
         except Exception as e:
             raise
