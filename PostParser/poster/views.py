@@ -51,6 +51,7 @@ class FrontendAppView(View):
         logging.exception(os.path.join(settings.REACT_APP_DIR, 'build', 'index.html'))
         try:
             with open(os.path.join(settings.REACT_APP_DIR, 'build', 'index.html')) as f:
+                logging.exception("it's open")
                 return HttpResponse(f.read())
         except FileNotFoundError:
             logging.exception('Production build of app not found')
