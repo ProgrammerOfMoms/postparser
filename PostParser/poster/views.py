@@ -27,6 +27,8 @@ class CsrfExemptSessionAuthentication(SessionAuthentication):
         return None
 
 class PostList(APIView):
+    authentication_classes = (CsrfExemptSessionAuthentication,)
+
     def get(self, request):
         bot = Bot(settings.token, settings.v)
         bot.auth()
@@ -47,9 +49,13 @@ class PostList(APIView):
             raise
             return Response(data={"status": "vk_error", "desc": str(e)}, status=status.HTTP_400_BAD_REQUEST)
         
-        return Response(data=posts, status=status.HTTP_200_OK)    
+        return Response(data=posts, status=status.HTTP_200_OK)  
+
+
+
 
 class FrontendAppView(View):
+    authentication_classes = (CsrfExemptSessionAuthentication,)
     """
     Serves the compiled frontend entry point (only works if you have run `yarn
     run build`).

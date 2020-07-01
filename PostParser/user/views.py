@@ -14,13 +14,16 @@ class CsrfExemptSessionAuthentication(SessionAuthentication):
 class UserListAPIView(generics.ListAPIView):
     queryset = User.objects.all()
     serializer_class = GetFullUserSerializer
+    authentication_classes = (CsrfExemptSessionAuthentication,)
 
 class GetCurrentUserView(APIView):
+    authentication_classes = (CsrfExemptSessionAuthentication,)
     def get(self, request):
         serializer = GetFullUserSerializer(request.user)
         return Response(serializer.data)
 
 class CreateUserView(APIView):
+    authentication_classes = (CsrfExemptSessionAuthentication,)
     permission_classes = (permissions.AllowAny, )
     def post(self,request):
         user = request.data.get('user')
