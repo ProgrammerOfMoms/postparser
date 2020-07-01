@@ -3,7 +3,7 @@ import axios from 'axios'
 
 
 export const axiosAllowAny = axios.create({
-    baseURL: 'https://skyteam-client.ru/',
+    baseURL: 'http://skyteam-client.ru/',
     timeout: 20000,
     headers: {
         'Content-Type': 'application/json',
@@ -18,7 +18,7 @@ axiosAllowAny.interceptors.response.use(
 
 
 export const axiosAuth = axios.create({
-    baseURL: 'https://skyteam-client.ru/',
+    baseURL: 'http://skyteam-client.ru/',
     timeout: 20000,
 });
 
