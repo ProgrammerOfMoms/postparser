@@ -6,7 +6,7 @@ import { Redirect } from 'react-router-dom';
 
 const layout = {
   labelCol: {
-    span: 8,
+    span: 11,
   },
   wrapperCol: {
     span: 16,
@@ -14,7 +14,7 @@ const layout = {
 };
 const tailLayout = {
   wrapperCol: {
-    offset: 8,
+    offset: 11,
     span: 16,
   },
 };
