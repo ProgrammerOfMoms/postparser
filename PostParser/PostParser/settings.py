@@ -25,7 +25,7 @@ SECRET_KEY = '%o)nd=_vyx&&n8y%@h%$-gkxkouwzl)ewzkgvk(cps61pzc7k2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', 'localhost:8000', 'skyteam-client.ru', 'www.skyteam-client.ru']
 
 
 # Application definition
@@ -136,7 +136,11 @@ CORS_ORIGIN_WHITELIST = (
     'http://localhost:3000',
     'http://127.0.0.1:8000',
     'http://127.0.0.1:3000',
-    'http://localhost:8000'
+    'http://localhost:8000',
+    'https://skyteam-client.ru',
+    'https://www.skyteam-client.ru',
+    'http://skyteam-client.ru',
+    'http://www.skyteam-client.ru'
 )
 
 CORS_ALLOW_CREDENTIALS = True
@@ -185,6 +189,7 @@ LOGIN_REDIRECT_URL = 'home'
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = 'static/'
 
 REACT_APP_DIR = os.path.join(BASE_DIR, 'post_parser_react') 
 
