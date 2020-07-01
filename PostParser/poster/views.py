@@ -16,6 +16,9 @@ import logging
 import urllib.request
 import os
 
+
+logging.basicConfig(filename = u'mylog.log')
+
 class PostList(APIView):
     def get(self, request):
         bot = Bot(settings.token, settings.v)
