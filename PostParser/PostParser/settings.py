@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '%o)nd=_vyx&&n8y%@h%$-gkxkouwzl)ewzkgvk(cps61pzc7k2'
+SECRET_KEY = 'secret'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -83,10 +83,10 @@ WSGI_APPLICATION = 'PostParser.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'u1090328_default',
-        'USER': 'u1090328_default',
-        'PASSWORD': 'e_5gPiPZ',
-        'HOST': 'localhost'
+        'NAME': 'name',
+        'USER': 'user',
+        'PASSWORD': 'password',
+        'HOST': 'host'
 
     }
 }
@@ -203,5 +203,5 @@ STATICFILES_DIRS = [
 
 
 #VK API
-token = "b41512f4b41512f4b41512f47db467cab0bb415b41512f4eaee5a9a115570ec4c253526"
+token = "token"
 v = "5.110"
