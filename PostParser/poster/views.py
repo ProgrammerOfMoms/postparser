@@ -48,7 +48,7 @@ class FrontendAppView(View):
     run build`).
     """
     def get(self, request):
-        print (os.path.join(settings.REACT_APP_DIR, 'build', 'index.html'))
+        logging.exception(os.path.join(settings.REACT_APP_DIR, 'build', 'index.html'))
         try:
             with open(os.path.join(settings.REACT_APP_DIR, 'build', 'index.html')) as f:
                 return HttpResponse(f.read())
