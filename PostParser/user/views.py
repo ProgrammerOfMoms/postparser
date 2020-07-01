@@ -5,6 +5,10 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import permissions
 
+class CsrfExemptSessionAuthentication(SessionAuthentication):
+    def enforce_csrf(self, request):
+        return None
+
 class UserListAPIView(generics.ListAPIView):
     queryset = User.objects.all()
     serializer_class = GetFullUserSerializer

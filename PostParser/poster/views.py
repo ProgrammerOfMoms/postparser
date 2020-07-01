@@ -19,6 +19,13 @@ import os
 
 logging.basicConfig(filename = u'mylog.log')
 
+from rest_framework.authentication import SessionAuthentication
+
+
+class CsrfExemptSessionAuthentication(SessionAuthentication):
+    def enforce_csrf(self, request):
+        return None
+
 class PostList(APIView):
     def get(self, request):
         bot = Bot(settings.token, settings.v)
