@@ -67,7 +67,7 @@ class FrontendAppView(View):
     def get(self, request):
         logging.exception(os.path.join(settings.REACT_APP_DIR, 'build', 'index.html'))
         try:
-            with open(os.path.join(settings.REACT_APP_DIR, 'build', 'index.html')) as f:
+            with open(os.path.join(settings.REACT_APP_DIR, 'build', 'index.html'), encoding="utf-8") as f:
                 logging.exception("it's open")
                 return HttpResponse(f.read())
         except FileNotFoundError:
