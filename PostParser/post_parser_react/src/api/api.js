@@ -1,4 +1,5 @@
 import axios from 'axios'
+import Cookies from 'js-cookie';
 
 
 
@@ -27,12 +28,26 @@ axiosAuth.interceptors.response.use(
     error => Promise.reject(error.response)
 );
 
-export const getHeaders = () => {
+export const getAllHeaders = () => {
+    let csrf = Cookies.get('csrftoken')
     return {
         headers: {
             'Authorization': "JWT " + localStorage.getItem('token'),
             'Content-Type': 'application/json',
             'accept': 'application/json',
+            // 'X-CSRFToken': csrf
+        }
+    }
+    
+}
+
+export const getPartHeaders = () => {
+    let csrf = Cookies.get('csrftoken')
+    return {
+        headers: {
+            'Content-Type': 'application/json',
+            'accept': 'application/json',
+            // 'X-CSRFToken': csrf
         }
     }
     

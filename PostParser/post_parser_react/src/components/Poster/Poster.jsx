@@ -3,7 +3,7 @@ import css from './Poster.module.css';
 import moment from "moment";
 import locale from  'antd/es/date-picker/locale/ru_RU';
 import ll from 'antd/es/date-picker/locale/en_US';
-import {axiosAuth, getHeaders} from '../../api/api';
+import {axiosAuth, getAllHeaders} from '../../api/api';
 import { Form,
          Input, 
          Button,
@@ -97,6 +97,35 @@ const Poster = (props) => {
 
     const pageSize = 20;
 
+    const unixToDate = (unix_time) => {
+        let unix_timestamp = 1549312452
+        // Create a new JavaScript Date object based on the timestamp
+        // multiplied by 1000 so that the argument is in milliseconds, not seconds.
+        let date = new Date(unix_time * 1000);
+        // Hours part from the timestamp
+        let hours = date.getHours();
+        // Minutes part from the timestamp
+        let minutes = "0" + date.getMinutes();
+        date.getDate()
+
+        // Will display time in 10:30:23 format
+        let formattedTime = date +' '+ hours + ':' + minutes.substr(-2);
+        return formattedTime;
+    }
+
+    const getTitle = (v) => {
+        return (<div className={css.title}>
+                    <a target="_blank" href={`https://vk.com/public${Math.abs(v.owner_id)}`}>
+                        {`https://vk.com/public${Math.abs(v.owner_id)}`}
+                    </a>
+                    <span>
+                        unixToDate(v.date)
+                    </span>
+                </div>)
+    }
+
+
+
     const getMaxPhoto = (array) => {
         if (array.length === 1) return array[0];
         let max = array.reduce((a, b) => {
@@ -126,7 +155,7 @@ const Poster = (props) => {
     const onFinish = (values) => {
         setShow(false);
         setPreloader(true);
-        let config = getHeaders();
+        let config = getAllHeaders();
         let slug = `posts/get/?q=${query}`;
         if (!!startTime) slug += `&start_time=${startTime}`;
         if (!!endTime) slug += `&end_time=${endTime}`;
@@ -139,12 +168,11 @@ const Poster = (props) => {
             }
         })
         .catch(err => {
-            if (err.status === 401 || err.status == 400){
+                alert(err.data)
                 alert("Ваш аккаунт больше недействителен!");
                 localStorage.removeItem("token");
                 setPreloader(false);
                 setRedirect(true);
-            }
         })
     }
     const onFinishFailed = (err) => {
@@ -187,9 +215,7 @@ const Poster = (props) => {
                             posts.slice(start, end).map((v, i) => {
                                 return (
                                     <div key = {i} className={css.card}>
-                                        <Card style={{"background-color": "#EDEEF0"}} title={<a target="_blank" href={`https://vk.com/public${Math.abs(v.owner_id)}`}>
-                                                        {`https://vk.com/public${Math.abs(v.owner_id)}`}
-                                                    </a>}>
+                                        <Card style={{"background-color": "#EDEEF0"}} title={getTitle(v)}>
                                             <div className={css.card_content}>
                                                     <div className = {css.text}>
                                                         {v.text}

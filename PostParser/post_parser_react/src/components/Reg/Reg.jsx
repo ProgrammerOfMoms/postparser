@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Form, Input, Button, Checkbox } from 'antd';
 import css from './Reg.module.css';
-import {axiosAllowAny} from '../../api/api';
+import {axiosAllowAny, getPartHeaders} from '../../api/api';
 import { Redirect } from 'react-router-dom';
 
 const layout = {
@@ -135,6 +135,7 @@ const Reg = (props) => {
     }
 
     const onFinish = (values) => {
+        let config = getPartHeaders(); 
         axiosAllowAny.post('/user/create/',
         {
             user:{

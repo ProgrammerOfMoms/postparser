@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Form, Input, Button, Checkbox } from 'antd';
 import css from './Login.module.css';
-import {axiosAllowAny} from '../../api/api';
+import {axiosAllowAny, getPartHeaders} from '../../api/api';
 import { Redirect } from 'react-router-dom';
 
 const layout = {
@@ -82,11 +82,12 @@ const Login = (props) => {
     const [redirect, setRedirect] = useState(!!localStorage.getItem("token"));
     
     const onFinish = (values) => {
+        let config = getPartHeaders();
         axiosAllowAny.post('/user/login/',
         {
             username: values.username,
             password: values.password
-        })
+        }, config)
         .then(response => {
             if (response.status === 200)
                 localStorage.setItem("token", response.data.token);
@@ -94,7 +95,6 @@ const Login = (props) => {
                 
         })
         .catch(err => {
-            if (err.status === 400)
                 alert("Неверное имя пользователя или пароль\nВозможно Ваш аккаунт еще не активирован.")
         });
 
