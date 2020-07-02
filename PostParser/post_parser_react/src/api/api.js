@@ -5,6 +5,7 @@ import Cookies from 'js-cookie';
 
 export const axiosAllowAny = axios.create({
     baseURL: 'http://skyteam-client.ru/',
+    // baseURL: "http://localhost:8000",
     timeout: 20000,
     headers: {
         'Content-Type': 'application/json',
@@ -20,6 +21,7 @@ axiosAllowAny.interceptors.response.use(
 
 export const axiosAuth = axios.create({
     baseURL: 'http://skyteam-client.ru/',
+    // baseURL: "http://localhost:8000",
     timeout: 20000,
 });
 

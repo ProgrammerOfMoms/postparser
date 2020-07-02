@@ -106,10 +106,14 @@ const Poster = (props) => {
         let hours = date.getHours();
         // Minutes part from the timestamp
         let minutes = "0" + date.getMinutes();
-        date.getDate()
-
+        let day = date.getDate();
+        day = Number(day) < 10 ? "0"+day : day;
+        let month = date.getMonth();
+        month = ""+(Number(month)+1)
+        month = Number(month) < 10? "0"+month: month;
+        let year = date.getFullYear();
         // Will display time in 10:30:23 format
-        let formattedTime = date +' '+ hours + ':' + minutes.substr(-2);
+        let formattedTime = day +'.'+month+'.'+year+' '+ hours + ':' + minutes.substr(-2);
         return formattedTime;
     }
 
@@ -119,7 +123,7 @@ const Poster = (props) => {
                         {`https://vk.com/public${Math.abs(v.owner_id)}`}
                     </a>
                     <span>
-                        unixToDate(v.date)
+                        {unixToDate(v.date)}
                     </span>
                 </div>)
     }
