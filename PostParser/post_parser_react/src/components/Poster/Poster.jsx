@@ -28,15 +28,15 @@ const FilterForm= (props) => {
     const formItemLayout =
       formLayout === 'horizontal'
         ? {
-            labelCol: { span: 6 },
-            wrapperCol: { span: 14 },
+            labelCol: { span: 11 },
+            wrapperCol: { span: 18 },
           }
         : null;
   
     const buttonItemLayout =
       formLayout === 'horizontal'
         ? {
-            wrapperCol: { span: 14, offset: 6 },
+            wrapperCol: { span: 14, offset: 11 },
           }
         : null;
   
@@ -52,7 +52,7 @@ const FilterForm= (props) => {
         //   style={{border: "1px solid black"}}
         >
           <Form.Item 
-            label="Запрос"
+            label="Введите ключевые слова"
             name="q"
             rules={[
             {
@@ -62,7 +62,7 @@ const FilterForm= (props) => {
             ]}>
             <Input onChange = {props.onQueryChange} />
           </Form.Item>
-          <Form.Item label="Диапозон" name="time">
+          <Form.Item label="Дата выхода постов" name="time">
             <RangePicker 
                          placeholder={["от", "до"]}
                          size="middle"
@@ -75,7 +75,7 @@ const FilterForm= (props) => {
                          onChange = {props.onCountChange} />
           </Form.Item>
           <Form.Item {...buttonItemLayout}>
-            <Button type="primary" htmlType="submit">Отправить</Button>
+            <Button type="primary" htmlType="submit">Получить посты</Button>
           </Form.Item>
         </Form>
       </div>
@@ -118,9 +118,10 @@ const Poster = (props) => {
     }
 
     const getTitle = (v) => {
+        console.log(v);
         return (<div className={css.title}>
                     <a target="_blank" href={`https://vk.com/public${Math.abs(v.owner_id)}`}>
-                        {`https://vk.com/public${Math.abs(v.owner_id)}`}
+                        {v.name}
                     </a>
                     <span>
                         {unixToDate(v.date)}
@@ -172,7 +173,6 @@ const Poster = (props) => {
             }
         })
         .catch(err => {
-                alert(err.data)
                 alert("Ваш аккаунт больше недействителен!");
                 localStorage.removeItem("token");
                 setPreloader(false);
@@ -219,7 +219,7 @@ const Poster = (props) => {
                             posts.slice(start, end).map((v, i) => {
                                 return (
                                     <div key = {i} className={css.card}>
-                                        <Card style={{"background-color": "#EDEEF0"}} title={getTitle(v)}>
+                                        <Card style={{"backgroundColor": "#EDEEF0"}} title={getTitle(v)}>
                                             <div className={css.card_content}>
                                                     <div className = {css.text}>
                                                         {v.text}

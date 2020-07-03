@@ -6,3 +6,785 @@ NoneType: None
 ERROR:root:it's open
 NoneType: None
 INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\views.py changed, reloading.
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\views.py", line 72, in get
+    return HttpResponse(f.read())
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\encodings\cp1251.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x98 in position 304: character maps to <undefined>
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:django.request:Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\views.py", line 72, in get
+    return HttpResponse(f.read())
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\encodings\cp1251.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x98 in position 304: character maps to <undefined>
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:django.request:Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\views.py", line 72, in get
+    return HttpResponse(f.read())
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\encodings\cp1251.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x98 in position 304: character maps to <undefined>
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:django.request:Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\views.py", line 72, in get
+    return HttpResponse(f.read())
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\encodings\cp1251.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x98 in position 304: character maps to <undefined>
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:django.request:Internal Server Error: /post_parser/
+Traceback (most recent call last):
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\views.py", line 72, in get
+    return HttpResponse(f.read())
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\encodings\cp1251.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x98 in position 304: character maps to <undefined>
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:django.request:Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\views.py", line 72, in get
+    return HttpResponse(f.read())
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\encodings\cp1251.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x98 in position 304: character maps to <undefined>
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\PostParser\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\PostParser\settings.py changed, reloading.
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:django.request:Internal Server Error: /post_parser/
+Traceback (most recent call last):
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\views.py", line 72, in get
+    return HttpResponse(f.read())
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\encodings\cp1251.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x98 in position 304: character maps to <undefined>
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:django.request:Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\views.py", line 72, in get
+    return HttpResponse(f.read())
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\encodings\cp1251.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x98 in position 304: character maps to <undefined>
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\views.py changed, reloading.
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+WARNING:django.request:Bad Request: /user/login/
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+ERROR:root:C:\Users\admin\Desktop\freelance\PostParser\PostParser\post_parser_react\build\index.html
+NoneType: None
+ERROR:root:it's open
+NoneType: None
+WARNING:django.request:Forbidden: /posts/get/
+WARNING:django.request:Forbidden: /posts/get/
+WARNING:django.request:Forbidden: /posts/get/
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\PostParser\settings.py changed, reloading.
+WARNING:django.request:Forbidden: /posts/get/
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py changed, reloading.
+WARNING:django.request:Bad Request: /posts/get/
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /posts/get/
+Traceback (most recent call last):
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\views.py", line 51, in get
+    posts = bot.get_posts(q, start_time, end_time, count, extended)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py", line 55, in get_posts
+    resp = self.vk.method("groups.getById", {"group_ids": group_ids})
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\vk_api\vk_api.py", line 646, in method
+    raise error
+vk_api.exceptions.ApiError: [100] One of the parameters specified was missing or invalid: group_ids is undefined
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py changed, reloading.
+ERROR:django.request:Internal Server Error: /posts/get/
+Traceback (most recent call last):
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\views.py", line 51, in get
+    posts = bot.get_posts(q, start_time, end_time, count, extended)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py", line 55, in get_posts
+    resp = self.vk.method("groups.getById", {"group_ids": ",".join(group_ids)})
+TypeError: sequence item 0: expected str instance, int found
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py changed, reloading.
+ERROR:django.request:Internal Server Error: /posts/get/
+Traceback (most recent call last):
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\views.py", line 51, in get
+    posts = bot.get_posts(q, start_time, end_time, count, extended)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py", line 57, in get_posts
+    for i in range(group_ids):
+TypeError: 'list' object cannot be interpreted as an integer
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py changed, reloading.
+ERROR:django.request:Internal Server Error: /posts/get/
+Traceback (most recent call last):
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\views.py", line 51, in get
+    posts = bot.get_posts(q, start_time, end_time, count, extended)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py", line 58, in get_posts
+    group_posts[i]["group_name"] = group_ids[i]["name"]
+TypeError: string indices must be integers
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py changed, reloading.
+ERROR:django.request:Internal Server Error: /posts/get/
+Traceback (most recent call last):
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\views.py", line 51, in get
+    posts = bot.get_posts(q, start_time, end_time, count, extended)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py", line 60, in get_posts
+    group_posts[i]["group_name"] = resp[i]["name"]
+IndexError: list index out of range
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py changed, reloading.
+ERROR:django.request:Internal Server Error: /posts/get/
+Traceback (most recent call last):
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\views.py", line 51, in get
+    posts = bot.get_posts(q, start_time, end_time, count, extended)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py", line 61, in get_posts
+    group_posts[i]["group_name"] = resp[i]["name"]
+IndexError: list index out of range
+ERROR:django.request:Internal Server Error: /posts/get/
+Traceback (most recent call last):
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\views.py", line 51, in get
+    posts = bot.get_posts(q, start_time, end_time, count, extended)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py", line 61, in get_posts
+    group_posts[i]["group_name"] = resp[i]["name"]
+IndexError: list index out of range
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py changed, reloading.
+ERROR:django.request:Internal Server Error: /posts/get/
+Traceback (most recent call last):
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\views.py", line 51, in get
+    posts = bot.get_posts(q, start_time, end_time, count, extended)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py", line 61, in get_posts
+    group_posts[i]["group_name"] = resp[i]["name"]
+IndexError: list index out of range
+ERROR:django.request:Internal Server Error: /posts/get/
+Traceback (most recent call last):
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\views.py", line 51, in get
+    posts = bot.get_posts(q, start_time, end_time, count, extended)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py", line 61, in get_posts
+    group_posts[i]["group_name"] = resp[i]["name"]
+IndexError: list index out of range
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py changed, reloading.
+ERROR:django.request:Internal Server Error: /posts/get/
+Traceback (most recent call last):
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\views.py", line 51, in get
+    posts = bot.get_posts(q, start_time, end_time, count, extended)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py", line 37, in get_posts
+    print(resp['response'])
+KeyError: 'response'
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py changed, reloading.
+ERROR:django.request:Internal Server Error: /posts/get/
+Traceback (most recent call last):
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\views.py", line 51, in get
+    posts = bot.get_posts(q, start_time, end_time, count, extended)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py", line 56, in get_posts
+    resp = self.vk.method("groups.getById", {"group_ids": ",".join(group_ids[j:i])})
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\vk_api\vk_api.py", line 646, in method
+    raise error
+vk_api.exceptions.ApiError: [100] One of the parameters specified was missing or invalid: group_ids is undefined
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py changed, reloading.
+ERROR:django.request:Internal Server Error: /posts/get/
+Traceback (most recent call last):
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\views.py", line 51, in get
+    posts = bot.get_posts(q, start_time, end_time, count, extended)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py", line 75, in get_posts
+    group_posts[i]["group_name"] = resp[i]["name"]
+IndexError: list index out of range
+ERROR:django.request:Internal Server Error: /posts/get/
+Traceback (most recent call last):
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\views.py", line 51, in get
+    posts = bot.get_posts(q, start_time, end_time, count, extended)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py", line 75, in get_posts
+    group_posts[i]["group_name"] = resp[i]["name"]
+IndexError: list index out of range
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py changed, reloading.
+ERROR:django.request:Internal Server Error: /posts/get/
+Traceback (most recent call last):
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\views.py", line 51, in get
+    posts = bot.get_posts(q, start_time, end_time, count, extended)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py", line 42, in get_posts
+    named_item["name"] = resp["groups"][i]
+KeyError: 'groups'
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py changed, reloading.
+ERROR:django.request:Internal Server Error: /posts/get/
+Traceback (most recent call last):
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\views.py", line 51, in get
+    posts = bot.get_posts(q, start_time, end_time, count, extended)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py", line 43, in get_posts
+    named_item["name"] = resp["groups"][i]
+KeyError: 'groups'
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py changed, reloading.
+ERROR:django.request:Internal Server Error: /posts/get/
+Traceback (most recent call last):
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\views.py", line 51, in get
+    posts = bot.get_posts(q, start_time, end_time, count, extended)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py", line 43, in get_posts
+    named_item["name"] = resp["groups"][i]
+IndexError: list index out of range
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py changed, reloading.
+ERROR:django.request:Internal Server Error: /posts/get/
+Traceback (most recent call last):
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\admin\Desktop\freelance\PostParser\venv\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\views.py", line 51, in get
+    posts = bot.get_posts(q, start_time, end_time, count, extended)
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py", line 49, in get_posts
+    named_item["name"] = self.get_name_from_id(str(named_item["owner_id"]), resp["groups"])
+  File "C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py", line 21, in get_name_from_id
+    raise ValueError
+ValueError
+INFO:django.utils.autoreload:C:\Users\admin\Desktop\freelance\PostParser\PostParser\poster\vk_bot.py changed, reloading.

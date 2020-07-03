@@ -25,7 +25,7 @@ SECRET_KEY = '%o)nd=_vyx&&n8y%@h%$-gkxkouwzl)ewzkgvk(cps61pzc7k2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'localhost:8000', 'skyteam-client.ru', 'www.skyteam-client.ru']
+ALLOWED_HOSTS = ['localhost','localhost:3000', 'localhost:8000', 'skyteam-client.ru', 'www.skyteam-client.ru']
 
 
 # Application definition

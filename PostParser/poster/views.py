@@ -27,7 +27,7 @@ class CsrfExemptSessionAuthentication(SessionAuthentication):
         return None
 
 class PostList(APIView):
-    authentication_classes = (CsrfExemptSessionAuthentication,)
+    # authentication_classes = (CsrfExemptSessionAuthentication,)
 
     def get(self, request):
         bot = Bot(settings.token, settings.v)
@@ -47,7 +47,7 @@ class PostList(APIView):
         try:
             user = request.user
             if not user.is_active:
-                return Response(data={"status": "vk_error", "desc": str(e)}, status=status.HTTP_401_UNAUTHORIZED)
+                return Response(data={"status": "vk_error"}, status=status.HTTP_401_UNAUTHORIZED)
             posts = bot.get_posts(q, start_time, end_time, count, extended)
         except Exception as e:
             raise

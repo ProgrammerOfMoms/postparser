@@ -14,7 +14,13 @@ class Bot:
             self.vk._auth_token()
         return self.vk
 
-    def get_posts(self, query, start_time=None, end_time=None, count='3', extended=0):
+    def get_name_from_id(self, id, values):
+        for item in values:
+            if item["id"] == int(id[1:]):
+                return item["name"]
+        raise ValueError
+
+    def get_posts(self, query, start_time=None, end_time=None, count='3', extended=1):
         
         if start_time is not None:
             start_time = int(time.mktime(time.strptime(start_time, '%Y-%m-%d')))
@@ -28,21 +34,25 @@ class Bot:
             "start_time": int(start_time) if start_time is not None else start_time,
             "end_time": int(end_time) if start_time is not None else end_time,
             "count": count if int(count) <= 200 else '200',
-            "extended": extended,
+            "extended": True,
+            "fields": "name",
             "start_from": None
         }
         group_posts = []
         while len(group_posts)<int(count):
             resp = self.vk.method("newsfeed.search", query_params)
-            if "next_from" in resp:
-                query_params["start_from"] = resp['next_from']
-            else:
-                print(len(group_posts))
-                return group_posts
+            i = 0
             for item in resp['items']:
                 if str(item['owner_id']).startswith('-') and "parents_stack" not in item:
+                    named_item = item
+                    named_item["name"] = self.get_name_from_id(str(named_item["owner_id"]), resp["groups"])
                     group_posts.append(item)
                     if len(group_posts) == int(count):
                         break
-        print(len(group_posts))
+                i+=1
+        
+            if "next_from" in resp:
+                query_params["start_from"] = resp['next_from']
+            else:
+                break
         return group_posts
