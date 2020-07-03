@@ -118,7 +118,6 @@ const Poster = (props) => {
     }
 
     const getTitle = (v) => {
-        console.log(v);
         return (<div className={css.title}>
                     <a target="_blank" href={`https://vk.com/public${Math.abs(v.owner_id)}`}>
                         {v.name}
