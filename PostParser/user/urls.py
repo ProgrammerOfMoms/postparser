@@ -7,5 +7,6 @@ urlpatterns = [
     path('login/', obtain_jwt_token),
     path('current_user/', GetCurrentUserView.as_view()),
     path('create/', CreateUserView.as_view()),
+    path('after_login/', UserAfterLogin.as_view())
 ]
 

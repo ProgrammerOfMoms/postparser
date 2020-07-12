@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Form, Input, Button, Checkbox } from 'antd';
 import css from './Login.module.css';
-import {axiosAllowAny, getPartHeaders} from '../../api/api';
+import {axiosAllowAny, getPartHeaders, getAllHeaders, axiosAuth} from '../../api/api';
 import { Redirect } from 'react-router-dom';
 
 const layout = {
@@ -78,6 +78,17 @@ const LoginForm = (props) => {
   );
 }
 
+const AfterLogin = () => {
+  let config = getAllHeaders();
+  axiosAuth.get('/user/after_login/', config)
+  .then(response => {
+    return
+  })
+  .catch( error => {
+    return
+  })
+}
+
 const Login = (props) => {
     const [redirect, setRedirect] = useState(!!localStorage.getItem("token"));
     
@@ -91,6 +102,7 @@ const Login = (props) => {
         .then(response => {
             if (response.status === 200)
                 localStorage.setItem("token", response.data.token);
+                AfterLogin();
                 setRedirect(true);
                 
         })
