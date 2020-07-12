@@ -82,6 +82,17 @@ const FilterForm= (props) => {
     );
 }
 
+const AfterLogin = () => {
+    let config = getAllHeaders();
+    axiosAuth.get('/user/after_login/', config)
+    .then(response => {
+      return
+    })
+    .catch( error => {
+      return
+    })
+  }
+
 
 const Poster = (props) => {
     const [posts, setPosts] = useState([]);
@@ -169,6 +180,7 @@ const Poster = (props) => {
             if (response.status === 200){
                 setPosts(response.data)
                 setPreloader(false);
+                AfterLogin();
             }
         })
         .catch(err => {
